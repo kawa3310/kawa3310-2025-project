@@ -90,13 +90,92 @@
           <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-web-camp/desktop/index/photo4.png?raw=true" alt="people-photo">
         </div>
       </div>
-      <div class="d-flex justify-content-end">
+      <div class="d-flex justify-content-end pb-9">
         <p class="side-title text-dark">聯繫我，取得更多資訊！</p>
         <a href="#" class="ps-2">
           <i class="bi bi-arrow-right-circle fw-normal"></i>
         </a>
       </div>
     </main>
+    <div class="border-bottom mb-9"></div>
+    <div class="swiper container">
+      <h1 class="pb-7 fw-bold">部落格精選</h1>
+      <div class="row">
+        <div class="col-lg-4 my-8 vvv">
+          <div class="card">
+            <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-web-camp/desktop/index/photo5.png?raw=true">
+            <div class="card-body p-0">
+              <div class="card-title pt-2">
+                <span class="bold-face">2024/07/08</span>
+              </div>
+              <div class="label bold-face d-flex mb-2">
+                <p class="m-0 pe-2">#面試準備 #工程師求職</p>
+                <button type="button" class="btn btn-primary rounded-5">最新文章</button>
+              </div>
+              <h4>前端面試不再慌：破解常見提問的三大策略</h4>
+              <p class="card-text pt-2">
+                面試前端工程師時，你或許擔心被問到各種刁鑽的技術題目，或是擔憂無法在短時間內展現實力。其實，許多面試官⋯
+              </p>
+              <div class="pt-2">
+                <button type="button"
+                  class="btn btn-outline-secondary rounded-pill">
+                閱讀更多
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 my-8 vvv">
+          <div class="card">
+            <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-web-camp/mobile/blog/photo4.png?raw=true">
+            <div class="card-body p-0">
+              <div class="card-title pt-2">
+                <span class="bold-face">2024/07/08</span>
+              </div>
+              <div class="label bold-face d-flex mb-2">
+                <p class="m-0 pe-2">#面試準備 #工程師求職</p>
+                <button type="button" class="btn btn-primary rounded-5">最新文章</button>
+              </div>
+              <h4>前端面試不再慌：破解常見提問的三大策略</h4>
+              <p class="card-text pt-2">
+                面試前端工程師時，你或許擔心被問到各種刁鑽的技術題目，或是擔憂無法在短時間內展現實力。其實，許多面試官⋯
+              </p>
+              <div class="pt-2">
+                <button type="button"
+                  class="btn btn-outline-secondary rounded-pill">
+                閱讀更多
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 my-8">
+          <div class="card">
+            <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2025-web-camp/mobile/blog/photo2.png?raw=true" alt="img" class="card-img-top">
+            <div class="card-body p-0">
+              <div class="card-title pt-2">
+                <span class="bold-face">2024/09/03</span>
+              </div>
+              <div class="bold-face d-flex mb-2">
+                <p class="label m-0 pe-2">#CSS設計 #視覺體驗</p>
+                <button type="button" class="btn btn-primary rounded-5">人氣文章</button>
+              </div>
+              <h4>CSS 魔法大揭密：排版與設計的三大關鍵技巧</h4>
+              <p class="card-text pt-2">
+                在瀏覽器畫面上實現各種精美介面，一直是前端開發充滿成就感的部分。但當面臨複雜的佈局需求或是響應式設計時⋯
+              </p>
+              <div class="pt-2">
+                <button type="button"
+                  class="btn btn-outline-secondary rounded-pill">
+                閱讀更多
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="border-bottom mt-9"></div>
   </div>
 </template>
 
@@ -200,5 +279,31 @@
   }
   .bi-arrow-right-circle {
     font-size: 40px;
+  }
+
+  .card{
+    max-width: 416px;
+    border: 0px;
+    height: 100%;
+    img {
+      height: 200px;
+    }
+  }
+  .card-body {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .label {
+    font-size: 24px;
+    color: #0027D5;
+  }
+
+  .bold-face {
+    font-weight: 500;
+  }
+
+  .my-8 {
+    margin: 40px 0 80px 0;
   }
 </style>
